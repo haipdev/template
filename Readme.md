@@ -2,7 +2,6 @@
 
 [![License](https://img.shields.io/github/license/haipdev/template.svg)](LICENSE)
 [![Build Status](https://travis-ci.org/haipdev/template.svg?branch=master)](https://travis-ci.org/haipdev/template)
-[![Updates](https://pyup.io/repos/github/haipdev/template/shield.svg)](https://pyup.io/repos/github/haipdev/template/)
 
 haip.template is Jinja2 based async template rendering module.
 
@@ -91,3 +90,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Dependencies
 
 * [haip_config](https://github.com/haipdev/config)
+* [jinja2](http://jinja.pocoo.org/)
