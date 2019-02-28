@@ -1,4 +1,4 @@
-# haip.config
+# haip.template
 
 [![License](https://img.shields.io/github/license/haipdev/template.svg)](LICENSE)
 [![Build Status](https://travis-ci.org/haipdev/template.svg?branch=master)](https://travis-ci.org/haipdev/template)

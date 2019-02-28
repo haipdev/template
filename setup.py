@@ -19,6 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "haip_config>=0.1.5"
+        "haip_config>=0.1.5",
+        "jinja2>=2.10"
     ]
 )
