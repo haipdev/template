@@ -23,3 +23,8 @@ async def test_simple_ok(setup):
 async def test_json(setup):
     output = await template.render('me.json', firstname='Reinhard', lastname='Hainz')
     assert output['firstname'] == 'Reinhard'
+
+@pytest.mark.asyncio
+async def test_sql(setup):
+    output = await template.render('me.sql', lastname="Hainz'")
+    assert "Hainz\\'" in output

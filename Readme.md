@@ -33,6 +33,7 @@ The template-file is defined by *config.template_dir/template_dir/template_filen
 Suffix handling is as follows:
 
 * .json : json struct (dict)
+* .sql : string (but **args values will be escaped)
 * .* : string
 
 ### Example
