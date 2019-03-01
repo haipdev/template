@@ -1,2 +1,2 @@
-haip-config>=0.1.7
+haip-config>=0.1.8
 jinja2>=2.10
