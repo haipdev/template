@@ -36,6 +36,8 @@ Suffix handling is as follows:
 * .sql : string (but **args values will be escaped)
 * .* : string
 
+> Notice: in sql templates only the arguments are escaped not the query itself. So use placeholders (jinja2 {{ }}) in your query and provide values per arguments.
+
 ### Example
 
 #### config (using haip.config)
