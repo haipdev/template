@@ -15,7 +15,7 @@ haip.template is Jinja2 based async template rendering module.
 ### Installing
 
 ```sh
-pip install haip.template
+pip install haip-template
 ```
 
 or from source:
