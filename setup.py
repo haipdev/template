@@ -5,7 +5,7 @@ with open("Readme.md", "r") as fh:
 
 setuptools.setup(
     name="haip_template",
-    version="0.1.1",
+    version="0.1.2",
     author="Reinhard Hainz",
     author_email="reinhard.hainz@gmail.com",
     description="Jinja2 based template module.",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "haip_config>=0.1.5",
+        "haip_config>=0.1.6",
         "jinja2>=2.10"
     ]
 )
